@@ -3,7 +3,8 @@ public class Main{
         Roller schwarzer = new Roller(12.0, 120, 9.0);
         Besitzer benutzer = new Besitzer(1000.0, "Vincent", schwarzer);
         System.out.println(benutzer.getGeld());
-        benutzer.erhalteTaschenGeld(1.0);
-        System.out.println(benutzer.getGeld());
+        benutzer.prostitution(100.0);
+        System.out.print(benutzer.getGeld());
+
     }
 }
