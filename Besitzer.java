@@ -14,12 +14,17 @@ public class Besitzer{
   public void FahreDeinenRoller(int strecke){
     roller.fahre(strecke);
   }
-  public void tankeDeinenRoller(double menge){
-    if (roller.passInTank(menge)){
+  public boolean tankeDeinenRoller(double menge){
+    if (roller.passtInTank(menge)){
       roller.tanke(menge);
+      return true;
     }
+    return false;
   }
   public void erhalteTaschenGeld(double summe){
     geld = geld + summe;
+  }
+  public void prostitution(double summe){
+    geld = geld + summe; 
   }
 }
