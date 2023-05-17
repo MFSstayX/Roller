@@ -5,6 +5,7 @@ public class Main{
         System.out.println(benutzer.getGeld());
         benutzer.prostitution(100.0);
         System.out.print(benutzer.getGeld());
+        
 
     }
 }
