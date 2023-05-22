@@ -24,7 +24,4 @@ public class Besitzer{
   public void erhalteTaschenGeld(double summe){
     geld = geld + summe;
   }
-  public void prostitution(double summe){
-    geld = geld + summe; 
-  }
 }
